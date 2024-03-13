@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/wickedbackground"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash_img"
+        android:layout_width="410dp"
+        android:layout_height="253dp"
+        android:src="@drawable/weather_svgrepo_com"
+        android:contentDescription="cloudImage"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="WeatherPunch"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="45sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:text="Designed by \nGaurav"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/text2"/>
+
+</LinearLayout>
